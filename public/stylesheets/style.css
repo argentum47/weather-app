@@ -1,0 +1,112 @@
+html, body, div, p, ul, li, span, h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo {
+  background: #009654;
+  color: #fff;
+  padding: 20px 5px 0;
+}
+
+.container {
+  padding: 10px 50px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix::after {
+  height: 0;
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.sidebar {
+  width: 80px;
+}
+
+.text-error {
+  display: block;
+  color: #f00;
+}
+
+main, .grid {
+  height: 500px;
+}
+
+.forecast-content {
+  height: 100%;
+  overflow: auto;
+}
+
+.forecast-content span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.forecast-content li, .sidebar li {
+  list-style-type: none;
+  padding: 10px 5px;
+}
+
+.sidebar li {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.sidebar span {
+  padding: 5px;
+}
+
+.sidebar li.selected {
+  background-color: navy;
+  color: #fff;
+}
+
+.search-box {
+  margin: 10px;
+}
+
+.search-box .input-field {
+  width: 300px;
+  border: 0;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.search-box .input-field:focus {
+  outline: 0;
+  border-bottom: 1px solid #00BB05;
+  transition: all 1s ease;
+}
+
+.search-button {
+  border: 0;
+  width: 150px;
+  height: 30px;
+  margin-left: 20px;
+  outline: 0;
+  vertical-align: bottom;
+}
+
+.search-button:focus {
+  background-color: #0278A7;
+  color: #fff;
+}
